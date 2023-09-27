@@ -1,0 +1,45 @@
+h1 {
+    color: orange;
+    background-color: slategray;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: arial;
+    text-align: center;
+  } 
+  p{
+    color: blue;
+    text-align:right;
+    line-height: normal;
+    letter-spacing: 3px;
+    column-count: 3;
+    column-gap: 60px;
+   }
+   h2 {
+    color: orange;
+    background-color: slategray;
+    font-size: 20px;
+    text-align:left;
+   }
+   ul li {
+    color:slategray
+   }
+  .playlist  {
+    line-height: 30px;
+     color: slategray(7, 161, 46);
+     letter-spacing: 2px;
+     column-count: 3;
+     column-gap: 60px;
+   }
+   ul{
+    /*border-width: 4px;
+    border-style: solid;
+    border-color: slategray;*/
+    /*border-bottom: 4px solid slategray;*/
+    border-bottom: 4px dotted slategray;
+    border-left: 8px dashed #25bb2d;
+    }
+li{
+  list-style-type: none;
+  /* text-shadow: 2px 2px light gray*/
+  text-shadow: 2px 2px #E9E9E9;
+}
